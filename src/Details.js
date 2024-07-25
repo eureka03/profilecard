@@ -1,10 +1,10 @@
 import './details.css';
-import jonas from './jonas.jpg';
+import eureka from './picture.png';
 import Skills from './Skills'
 export default function Details(){
     return(
         <div className='details'>
-            <div className='image'><img src={jonas} alt='jonas schmedtmann'/></div>
+            <div className='image'><img src={eureka} alt='jonas schmedtmann'/></div>
             <div className="resume">
                 <div className="name">
                     <h1>Eureka Baloyi</h1>
